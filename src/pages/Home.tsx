@@ -30,6 +30,15 @@ export const Home = () => {
   function generatePswd(e: any) {
     e.preventDefault();
 
+    if (
+      !input.includeLowerCase &&
+      !input.includeNumbers &&
+      !input.includeSymbols &&
+      !input.includeUpperCase
+    ) {
+      return;
+    }
+
     const sourceNumbers = "0123456789";
     const sourceLowerCase = "abcdefghijklmnopqrstuvwxyz";
     const sourceUpperCase = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
@@ -104,7 +113,7 @@ export const Home = () => {
           Include numbers
           <input
             id="numbers"
-            name="numbers"
+            name="includeNumbers"
             type="checkbox"
             defaultChecked={input.includeNumbers}
             onChange={(e) => handleChange(e)}

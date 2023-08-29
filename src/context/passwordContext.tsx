@@ -1,4 +1,4 @@
-import { ReactNode, createContext, useContext, useState } from "react";
+import { useState, useContext, createContext, ReactNode } from "react";
 
 type PasswordContext = {
   password: string;

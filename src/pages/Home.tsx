@@ -1,6 +1,6 @@
 import { useState } from "react";
-import { saveToLocalStorage } from "../utilities/saveToLocalStorage";
 import { usePasswordContext } from "../context/passwordContext";
+import { saveToLocalStorage } from "../utilities/saveToLocalStorage";
 
 type Inputs = {
   length: number;

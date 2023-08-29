@@ -15,8 +15,13 @@ This is a front-end password generator built in React. The page allows us to spe
 ---
 
 ![Zrzut ekranu 2023-08-29 o 14 34 27](https://github.com/Kicknee/password-gen/assets/47301333/b7fe5820-6862-469e-9235-378a736d4c67)
-![Zrzut ekranu 2023-08-29 o 14 35 19](https://github.com/Kicknee/password-gen/assets/47301333/2701588c-6fa5-4e1a-8a36-9b0bf13c74d5)
-<br>*Strona główna po lewej; Historia po prawej / Home page on the left; History page on the right*
+<br>*Strona główna / Home page*
 
 ---
+
+![Zrzut ekranu 2023-08-29 o 14 35 19](https://github.com/Kicknee/password-gen/assets/47301333/2701588c-6fa5-4e1a-8a36-9b0bf13c74d5)
+<br>*Historia / History page*
+
+---
+
 

@@ -8,7 +8,7 @@
 [https://health-online-kicknee-project.netlify.app/](https://password-generator-kicknee-project.netlify.app/)
 ### Opis / Description
 
-Jest to frond-end generatora haseł zbudowany w React. Strona pozwala nam sprecyzować długość a także inne elementy, które mają być zawarte w haśle jak np. duże litery, czy symbole. Każde wygenerowane hasło jest zapisywane w lokalnej pamięci przeglądarki. 
+Jest to frond-end generatora haseł zbudowany w React. Strona pozwala nam sprecyzować długość, a także inne elementy, które mają być zawarte w haśle jak np. duże litery, czy symbole. Każde wygenerowane hasło jest zapisywane w lokalnej pamięci przeglądarki. 
 <br><br>
 This is a front-end password generator built in React. The page allows us to specify the length as well as other conditions to be taken into account when generating the password, such as capital letters or symbols. Each generated password is saved in the browser's local memory.
 

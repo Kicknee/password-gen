@@ -24,7 +24,7 @@ body {
 
 .container {
   width: 550px;
-  height: 750px;
+  height: 700px;
   background-color: var(--appBack);
   display: flex;
   flex-direction: column;

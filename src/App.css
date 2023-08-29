@@ -131,6 +131,12 @@ label {
   outline: none;
   border: none;
   margin-top: 25px;
+  transition: all 0.5s;
+}
+.button:hover {
+  background-color: var(--switchOn);
+  box-shadow: inset 0px 0px 15px rgba(0, 0, 0, 0.525),
+    0px 0px 10px rgba(0, 0, 0, 0.525);
 }
 
 .passwords-list {
@@ -165,6 +171,11 @@ label {
 @media (max-width: 700px) {
   .container {
     width: 100vw;
+    height: 100vh;
+  }
+}
+@media (max-height: 850px) {
+  .container {
     height: 100vh;
   }
 }
